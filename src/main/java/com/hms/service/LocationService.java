@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class LocationService {
-    private static final String IPINFO_API_KEY = "03082cb5b3df80";  // Replace with your actual key
+    private static final String IPINFO_API_KEY = "InsertKey";  // Replace with your actual key
     private static final String IPINFO_URL = "https://ipinfo.io/";
     private static final String IPIFY_URL = "https://api64.ipify.org?format=text"; // To get your public IP
 
@@ -28,7 +28,7 @@ public class LocationService {
 
 
 
-//    private static final String API_KEY = "5c6e27a622e1aa84cac01110ee671091";
+//    private static final String API_KEY = "Insert Key";
 //    private static final String URL = "http://api.ipstack.com/";
 //
 //    public String getLocation(String ipAddress) {
